@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TMS/libs/httpmime-4.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TMS/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TMS/libs/ormlite-core-4.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TMS/libs/commons-httpclient-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TMS/libs/ormlite-android-4.47.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

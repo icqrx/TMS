@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeliveryOrderListActivity" >
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:id="@+id/input_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_layout"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_total_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_hikiate_kbn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/next_distribut"
+                    android:textSize="40sp"
+                    android:textColor="@color/grayStart"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_sync"
+                    style="@style/style_black_button"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/sync" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_carry_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@+id/input_content_layout"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_time_settings"
+            style="@style/style_pink_button"
+            android:layout_gravity="center"
+            android:text="@string/time_settings" />
+
+        <Button
+            android:id="@+id/btn_package_delete"
+            style="@style/style_yellow_button"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/package_delete" />
+
+        <Button
+            android:id="@+id/btn_package_confirm"
+            style="@style/style_red_button"
+            android:layout_gravity="center"
+            android:text="@string/package_confirm" />
+    </LinearLayout>
+
+</RelativeLayout>

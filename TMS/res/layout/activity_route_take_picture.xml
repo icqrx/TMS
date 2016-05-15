@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:id="@+id/action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_layout"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_sync"
+            style="@style/style_black_button"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sync" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_layout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_margin="10dp"
+            android:background="@color/grayStart"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/add_or_modify_image" />
+
+            <ImageView
+                android:id="@+id/iv_pic_detail"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/tv_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/comment" />
+
+            <EditText
+                android:id="@+id/edt_new_comment"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_register"
+                style="@style/style_red_button"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/register" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

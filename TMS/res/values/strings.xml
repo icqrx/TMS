@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TMS</string>
+    <string name="menu_settings">その他</string>
+    <string name="action_settings">Settings</string>
+    <string name="copyright">Copyright c 2013 KASEI.inc Co., Ltd. Allrights reserves. </string>
+    <string name="powered_by_kasei">Powered by KASEI</string>
+    <string name="system_name_jp">配送管理システム</string>
+    <string name="system_name_en">Transport management system</string>
+
+    <!-- ログイン画面 -->
+
+    <string name="staff_code">スタッフコード</string>
+    <string name="password">パスワード</string>
+    <string name="btn_login">ログイン</string>
+    <string name="alert_invalid_input">スタッフコードまたはパスワードが正しくありません。</string>
+    <string name="alert_loging">ログイン中…</string>
+    <string name="alert_logout">ログアウト中…</string>
+    <string name="alert_loading">ロードしています</string>
+    <string name="text_unknown_error">（エラー）原因不明のエラーです。</string>
+    <!-- メニュー画面 -->
+
+    <string name="menu">メニュー</string>
+    <string name="settings">配送順設定</string>
+    <string name="carry_out">持ち出し</string>
+    <string name="display_route">ルート表示</string>
+    <string name="receive_data">データ受取</string>
+    <string name="log_out">ログアウト</string>
+    <string name="sync">同期</string>
+
+    <!-- 配送順設定画面 -->
+    <string name="title_delivery_other_settings">配送順設定</string>
+    <string name="textView_houses">軒数</string>
+    <string name="textView_packages">個数</string>
+    <string name="textView_weight">重量</string>
+    <string name="textView_capacity">容積</string>
+    <string name="textView_houses_value">30</string>
+    <string name="textView_packages_value">60</string>
+    <string name="textView_weight_value">300</string>
+    <string name="textView_capacity_value">307</string>
+    <string name="edit_mode">編集モード</string>
+    <string name="finish_edit">編集終了</string>
+    <string name="transfer">渡す</string>
+    <string name="customer_name">㈱加勢</string>
+    <string name="department_name">西日本事業部</string>
+    <string name="address">大阪市 中央区 南船場 1-3-5 </string>
+    <string name="note">備考</string>
+	<string name="unit"> 才</string>
+	<string name="kg"> kg</string>
+	<string name="day">日</string>
+	<string name="month">月</string>
+	<string	name="year">年</string>
+	<string	name="have">有り</string>
+	<string	name="not_have">無し</string>
+    <!-- データ転送画面 -->
+    <string name="tracking_id">問合番号 </string>
+    <string name="order_id">注文番号 </string>
+    <string name="carry_out_flag">持出 </string>
+    <string name="carry_out_status_name">貨物状況 </string>
+    <string name="shipper">荷主 </string>
+    <string name="shipper_name">荷主 </string>
+    <string name="shipper_type_name">便名 </string>
+    <string name="first_delivery_date">初配達日 </string>
+    <string name="estimated_delivery_time">配送時間 </string>
+    <string name="receiver_address">住所 </string>
+    <string name="receiver_name">会社名 </string>
+    <string name="receiver_department_name">部署名 </string>
+    <string name="person_in_charge">お届け先担当者名 </string>
+    <string name="tel">電話  </string>
+    <string name="cancel">キャンセル</string>
+    <string name="select_driver_name">ドライバー名</string>
+    <string name="confirm_transfer">へ貨物を渡しますか？</string>
+
+    <!-- 持ち出し画面 -->
+    <string name="title_carry_out">持ち出し</string>
+    <string name="next_distribut">翌配</string>
+    <string name="total_item">全%1$s件</string>
+    <string name="total_remaining">全%1$s軒</string>
+    <string name="time_settings">時間設定</string>
+    <string name="package_delete">一括解除</string>
+    <string name="package_confirm">一括確認</string>
+
+    <!-- 持ち出し詳細画面 -->
+    <string name="person_in_charge_of_receiver_side">担当者</string>
+    <string name="memo">メモ </string>
+    <string name="condition_in_front_of_house">軒先 </string>
+    <string name="others">その他</string>
+
+    <!-- 時間設定画面 -->
+
+    <string name="title_time_settings">時間設定</string>
+    <string name="register">登録</string>
+    <string name="delivery_time">１軒目時間</string>
+    <string name="average_delivery_interval">平均配達間隔</string>
+
+    <!-- 予定時間更新画面 -->
+    <string name="current_setting_time">現在設定時間 ：</string>
+    <string name="current_setting_time_text">11:45</string>
+    <string name="update_estimated_time">予定時間更新</string>
+
+    <!-- ルート表示画面 -->
+    <string name="title_display_route">ルート表示</string>
+    <string name="estimation_delivery_time_title">最終予定配送時刻</string>
+    <string name="estimation_delivery_time_content">AM11:30　～　11:45</string>
+    <string name="status">ステータス </string>
+    <string name="packages">8 </string>
+
+    <!-- ルート詳細表示画面 -->
+
+    <string name="title_detail_display">詳細表示</string>
+    <string name="index">1/3</string>
+    <string name="complete">完了</string>
+    <string name="absence">不在</string>
+    <string name="change_estimated_time">予定時間変更</string>
+    <string name="image">画像</string>
+    <string name="map">地図</string>
+    <string name="update">更新</string>
+
+    <!-- ルート詳細表示画面 -->
+    <string name="edit">編集</string>
+    <string name="back">戻る</string>
+    <string name="image_info">ココを左折 </string>
+
+    <!-- add or modify image screen -->
+    <string name="add_or_modify_image">画像追加・修正</string>
+    <string name="comment">コメント</string>
+    <string name="delete">削除</string>
+    <string name="alert_dialog_single_choice">その他のリスト</string>
+
+    <!-- Send or Receive Screen -->
+    <string name="title_send_screen">他ドライバーへ渡す</string>
+    <string name="explain_send_data">貨物を渡すドライバーのスマホに近付けてください</string>
+    <string name="title_receive_screen">他ドライバーから貰う</string>
+    <string name="explain_receive_data">貨物を貰うドライバーのスマホに近付けてください</string>
+    <string name="text_nfc">NFCを有効にしますか。</string>
+    <string name="text_device_no_support_nfc">NFC非対応の端末です。</string>
+    <string name="new_tag_found">新しいタグが見つかりました。</string>
+    <string name="alert_show_content">このタグの内容を表示しますか。</string>
+    <string name="alert_no_ndef_data">このNFCタグはNDEFデータがありません。</string>
+    <string name="nfc_is_not_available">NFCが利用不可です。</string>
+    <string name="text_data_sent">データが送信されました。続けますか。</string>
+
+    <!-- google map screen -->
+    <string name="alert_network_error">ネットワークエラー！</string>
+    <!-- Delivery order transfer data -->
+    <string name="text_retry">該当のデータは最新の状態ではありません。もう一度実行してください</string>
+    <string name="text_retry_android_status">受け渡し先のユーザが、受信待機状態になっていません。再度実行しますか？</string>
+	<string name="alert_dbatchs_transfer">転送中…</string>
+	<string name="alert_android_status">アンドロイドのステータスを取得中…</string>
+	
+	<string name="toast_finish">完了　になりました。</string>
+	<string name="toast_others">　になりました。</string>
+	<string name="toast_absence">不在　になりました。</string>
+	
+    <!-- Ref -->
+
+	<string name="alert_dialog_no_internet"> この処理は、インターネット環境下で操作してください。 </string>
+    <string name="alert_dialog_confirm_update_time"> 予定時間を更新しますか？</string>
+    <string name="alert_dialog_confirm_delete">一括解除を実行しますか？</string>
+    <string name="alert_dialog_confirm_package"> 一括確認を実行しますか？ </string>
+    <string name="alert_dialog_confirm_register"> 登録しますか？</string>
+    <string name="alert_dialog_confirm_update_route">軒先条件を更新しますか？</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_yes">はい</string>
+    <string name="alert_dialog_no">いいえ</string>
+    <string name="alert_dialog_cancel">キャンセル</string>
+    
+    <string name="status_id_other">その他</string>
+    <string name="status_id_all">全表示</string>
+
+    <!-- Message request turn on wifi -->
+    <string name="text_wifi">Wifiを有効にしますか。</string>
+    <!-- Image info -->
+
+    <string-array name="select_dialog_others">
+        <item>キャンセル</item>
+        <item>受け取り拒否</item>
+        <item>転送</item>
+        <item>再出荷分完了</item>
+        <item>長期不在</item>
+    </string-array>
+    <string-array name="select_dialog_carry_out">
+        <item>破損（現認)</item>
+        <item>他へ混入</item>
+        <item>未出荷</item>
+    </string-array>
+    <string-array name="select_dialog_carray_out_type">
+        <item>持ち出し</item>
+        <item>未持ち出し</item>
+    </string-array>
+    <string-array name="delivery_status_spinner">
+        <item>配達中</item>
+        <item>配達完了</item>
+        <item>不在</item>
+        <item>その他</item>
+        <item>全表示</item>
+    </string-array>
+</resources>
